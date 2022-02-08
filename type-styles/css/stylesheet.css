@@ -1,0 +1,109 @@
+html {
+    color: black;
+    font-family:'Merriweather', serif;
+    font-size: 24pt;
+    margin-left: 1em;
+
+  }
+
+
+  /* section {
+      margin-bottom: 100px */
+  
+
+  body {
+    font-family:'Merriweather', serif;
+    margin: 6%
+
+  }
+
+  
+
+  h1 {
+      font-size: 2rem;
+      margin-bottom: .4em;
+      font-weight: bolder;  }
+
+  h2 {
+      font-size: 1.2rem;
+      margin-bottom: -.4em;
+      font-weight: bolder;
+      color: rgb(177, 50, 50);
+  }
+
+  h3 {
+      font-size: .5rem;
+      font-weight: 800;
+      margin-top: -1.1em;
+      margin-bottom: .5em;
+      color: rgb(133, 165, 190);
+      
+  }
+
+  p {
+      font-size: 0.8em;
+      margin-top: 2em;
+  }
+
+  
+    .styledFont {
+        font-family: 'Merriweather';
+    }
+        section.FontWeight p.normal {
+            font-weight: normal;
+        }
+        
+        section.FontWeight p.bold {
+            font-weight: bold;
+        }
+        
+        section.FontStyle p.normal {
+            font-style: normal;
+        }
+        
+        section.FontStyle p.italic {
+            font-style: italic;
+        } 
+
+        section.LetterSpacing p.normal{
+            letter-spacing: normal;
+        }
+        section.LetterSpacing p.wide{
+            letter-spacing: 1em;
+        }
+        section.LetterSpacing p.narrow{
+            letter-spacing: -0.1em;
+        }
+
+        section.TextDecoration p.normal{
+            text-decoration: none;
+        }
+        section.TextDecoration p.underline{
+            text-decoration: underline;
+        }
+        section.TextDecoration p.line-through{
+            text-decoration: line-through;
+        }
+        section.TextDecoration p.overline{
+            text-decoration: overline;
+        }
+
+        section.TextTransform p.normal{
+            text-transform: none;
+        }
+        section.TextTransform p.uppercase{
+            text-transform: uppercase;
+        }
+        section.TextTransform p.lowercase{
+            text-transform: lowercase;
+        }
+        section.TextTransform p.capitalize{
+            text-transform: capitalize;
+        }
+    
+    
+    
+    
+    
+    
+    
