@@ -1,0 +1,29 @@
+body {
+    font-family: 'Supermercado One', cursive;
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 6%
+}
+section.textstyle p.description{
+margin-left: 15em;
+margin-right: 15em;
+
+}
+
+section.ingredients{
+    margin-left: 15em;
+    margin-right: 15em;
+    font-size: 12pt;
+    }
+
+section.steps{
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 14pt;
+    }
+
+    h2{
+        color: slategrey;
+    }
