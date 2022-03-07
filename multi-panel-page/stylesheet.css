@@ -1,0 +1,174 @@
+
+
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+   
+}
+h1,h2{
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.contents{
+    /* background-color: rgba(0, 0, 255, .5); */
+    width: 960px;
+    margin: auto;
+    padding: 42px 0 20px 0;
+}
+
+header{
+    background-color: rgba(255, 0,0,.5);
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/539/563/original/vector-seamless-colorful-background-of-graffiti.jpg);
+    background-size: contain;
+    background-position: center
+    ;
+}
+header .contents{
+    padding:152px 0 188px 0;
+}
+header h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 0;
+}
+header h2{
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+}
+#section1 img{
+    float: right;
+    border: 1px solid #ffffff;
+    margin: 0 0 40px 38px;
+}
+
+#section1 p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#section1{
+    background-image: url(https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/character-design/jcr_content/main-pars/image/character-design-intro_900x506.jpg);
+    background-size: contain;
+    background-position: 0%
+}
+
+#section1 .contents{
+    padding: 42px 0 35px 0;  
+}
+
+#section1 h1{
+    color: white;
+}
+
+#section1 p{
+    color: white;
+}
+
+.gridimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li img{
+    float: left;
+    margin-bottom: 22px;
+    margin-right: 11px;
+    border: 1px solid #ffffff;
+}
+
+#section2 h1{
+    color: #ffffff;
+}
+
+li h3{
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 20px;
+    color: #ffffff;
+}
+li p{
+    padding: 0 25px 0 150px;
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #ffffff;
+    
+}
+li{
+    margin-bottom: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#section2 li {
+    padding-right: 30px;
+    color: black;
+}
+
+#section2 .contents{
+    padding: 42px 0 35px 0;  
+}
+
+
+#section2{
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+}
+
+#section3 .contents{
+    padding: 42px 0 98px 0;
+}
+
+#section3 h1{
+    padding:2px 0  0 ;
+    color: #ffffff;
+}
+
+#section3 h2{
+    padding:2px 20px 3px 20px  ;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 1.4;
+    font-size: 26px;
+    color: #ffffff;  
+}
+#section3{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+    background-position: center;
+}
+
+footer p{
+    font-size: 19px;
+    padding: 22px 0 35px 163px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 53px;
+    padding-left: 163px;
+    letter-spacing: -.1px;
+    margin: 0 0 0 0;
+    font-weight: 200;
+    color: #ffffff;
+    
+}
+footer{
+    background-image: url(https://cdn.dribbble.com/users/45782/screenshots/11304218/gradient_02_a.jpg);
+    background-position: center;
+    
+}
