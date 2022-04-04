@@ -1,0 +1,317 @@
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_moo {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 2px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 30px;
+				font-family: 'Raleway', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_moo:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_oldnavy {
+				display: block;
+				width: 200px;
+				height: 60px;
+				box-sizing: border-box;
+				border-radius: 60px;
+				margin: auto;
+				margin-top: 95px;
+				padding-top: 6%;
+                font-weight: bolder;
+				background-color: rgb(45, 45, 167);
+                font-family: 'Montserrat', sans-serif;
+				color: #fff;
+				text-align: center;
+				font-size: 22px;
+				transition: all .2s;
+                text-decoration: none;
+			}
+
+			a#btn_oldnavy:hover {
+				background-color: #ffffff;
+                color: rgb(30, 30, 184);
+                transform: scale(120%);
+			}
+
+			a#btn_fitbit {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 5px 30px 0 30px;
+				background-color: #ffffff;
+                border: 2px solid #ffffff;
+				color: rgb(0, 0, 0);
+				font-size: 25px;
+                font-family: 'Baloo 2', cursive;
+				font-weight: bold;
+				text-decoration: none;
+                transition: 0.5s;
+			}
+
+			a#btn_fitbit:hover {
+                background-color: #000;
+                color: #ffffff;
+                border: 2px solid #000;
+        
+
+			}
+
+			a#btn_nike {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #000000;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_nike:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #000000;
+				transition: all .5s;
+			}
+
+			a#btn_nike:hover {
+				color: #fff;
+                box-sizing: border-box;
+                
+			}
+
+			a#btn_nike:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_nike span {
+				position: relative;
+				z-index: 10;
+			}
+            a#btn_apple {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 5px;
+				background-color: #727272;
+                border: 2px solid #727272;
+				color: rgb(255, 255, 255);
+				text-align: center;
+				font-size: 60px;
+				transition: all .5s;
+			}
+            a#btn_apple.fa-apple{
+                color: #ddd;
+
+            }
+
+			a#btn_apple:hover {
+				background-color: #ffffff;
+                color: #000;
+                border: 2px solid black;
+			}
+
+            a#btn_tesla {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 5px 30px 0 30px;
+				background-color: #ffffff;
+                border: 2px solid #ffffff;
+				color: rgb(202, 3, 3);
+				font-size: 25px;
+                font-family: 'Audiowide', cursive;
+				font-weight: bold;
+				text-decoration: none;
+                transition: 0.5s;
+			}
+
+			a#btn_tesla:hover {
+                background-color: rgb(255, 255, 255);
+                color: #ff6e6e;
+                border: 2px solid rgb(255, 255, 255);
+                transform:scale(1.2)
+            }
+
+            a#btn_foreflight {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 5px 30px 0 30px;
+				background-color: #5a94df;
+                border: 2px solid #5a94df;
+				color: rgb(255, 255, 255);
+				font-size: 25px;
+                font-family: 'Lobster', cursive;
+				font-weight: bold;
+				text-decoration: none;
+                transition: 0.5s;
+			}
+
+			a#btn_foreflight:hover {
+                background-color: rgb(255, 255, 255);
+                color: #6082f3;
+                border: 2px solid rgb(255, 255, 255);
+                box-shadow: 0px 5px 10px 2px rgb(158, 158, 158);
+            }
+            a#btn_electra {
+				
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding: 26px 5px 5px 6px;
+				background-color: #62fcef;
+                border: 2px solid #26f0d5;
+				color: rgb(255, 255, 255);
+				font-size: 30px;
+                font-family: 'Lobster', cursive;
+				font-weight: bold;
+				text-decoration: none;
+                transition: 1.2s;
+			}
+
+			a#btn_electra:hover {
+                background-color: rgb(255, 255, 255);
+                color: #000000;
+                border: 2px solid rgb(19, 83, 75);
+                box-shadow: 10px 10px 10px 10px rgb(219, 219, 219);
+                transform: rotate(720deg);
+                
+            }
+            a#btn_mt {
+				
+				display: block;
+				width: 120px;
+				height: 150px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin: auto;
+				margin-top: 50px;
+				padding: 27px 5px 5px 6px;
+				background-color: #ffffff;
+                border: 2px solid #ffffff;
+				color: rgb(233, 58, 58);
+				font-size: 30px;
+                font-family: 'Fugaz One', cursive;
+				font-weight: bold;
+				text-decoration: none;
+                transition: 0.2s;
+			}
+
+			a#btn_mt:hover {
+                background-color: rgb(233, 58, 58);
+                color: #ffffff;
+                border: 2px solid rgb(233, 58, 58);
+                box-shadow: 10px 10px 10px 10px rgb(219, 219, 219);
+              
+            }
+            a#btn_npr {
+				
+				display: block;
+				width: 120px;
+				height: 60px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 2px 5px 5px 5px;
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dd0408+0,010500+51,010500+52,1500fc+100 */
+                background-color: rgb(221,4,8); /* Old browsers */
+                background: -moz-linear-gradient(left,  rgba(221,4,8,1) 0%, rgba(1,5,0,1) 51%, rgba(1,5,0,1) 52%, rgba(21,0,252,1) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left,  rgba(221,4,8,1) 0%,rgba(1,5,0,1) 51%,rgba(1,5,0,1) 52%,rgba(21,0,252,1) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right,  rgba(221,4,8,1) 0%,rgba(1,5,0,1) 51%,rgba(1,5,0,1) 52%,rgba(21,0,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd0408', endColorstr='#1500fc',GradientType=1 ); /* IE6-9 */
+                ;
+                border: 2px solid #ffffff;
+				color: white;
+				font-size: 30px;
+                font-family: 'Fugaz One', cursive;
+				font-weight: bold;
+				text-decoration: none;
+                transition: 1.2s;
+			}
+
+			a#btn_npr:hover {
+                background: rgb(255, 255, 255);
+                color: #ffffff;
+                
+                text-shadow: 2px 2px #575757;
+              
+                
+            }
