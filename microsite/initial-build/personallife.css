@@ -1,0 +1,118 @@
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    margin: 0;
+    /* otherwise use  VL Gothic Regular*/
+}
+
+
+
+
+nav {
+    padding: 2% 0 7%;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+nav a {
+    margin: 0 7%;
+}
+
+nav, #personallife {
+    color: white;
+    background-color: rgb(52, 184, 125)
+}
+
+#personallife img {
+    width: 76%;
+    margin-left: 12%;
+}
+
+
+
+#personallife p {
+    width: 75%;
+    margin: auto;
+    padding: 5% 0 5% 0;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#personallife h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0 0% 0 ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 184, 125);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+#personallife2 p {
+    width: 75%;
+    margin: auto;
+    
+    font-size: 25px;
+    text-align: center;
+    color: rgb(52, 184, 125);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#personallife2 h1{
+    font-size: 40px;
+    text-align: center;
+   
+    color: rgb(52, 184, 125);
+    background-color: white;
+    margin-top: 5%;
+
+}
+
+#personallife2 img {
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 0%;
+}
+
+
+#personallife3{
+    background-color: rgb(52, 184, 125);
+
+}
+
+#personallife3 p {
+    width: 75%;
+    margin: auto;
+    
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color:rgb(52, 184, 125) ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+}
+
+#personallife3 h1{
+    font-size: 40px;
+    text-align: center;
+   
+    color: white;
+    padding-top: 5%;
+    
+
+
+}
+
+#personallife3 img {
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 0%;
+}
