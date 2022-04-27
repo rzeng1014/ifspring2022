@@ -1,0 +1,141 @@
+body {
+   
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    margin: 0;
+   
+}
+
+
+
+
+nav {
+    padding: 2% 0 7%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;   
+}
+
+nav a {
+    margin: 0 7%;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    text-decoration: solid;
+    color: rgb(23, 56, 23);
+}
+
+nav, #personallife {
+    color: white;
+    background-color: rgb(52, 184, 125)
+}
+
+#personallife img {
+    width: 70%;
+    margin-left: 12%;
+}
+
+
+
+#personallife p {
+    width: 75%;
+    margin: auto;
+    padding: 5% 0 5% 0;
+    font-size: 25px;
+    
+
+}
+
+#personallife h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0 0% 0 ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 184, 125);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+#personallife2 p {
+    width: 75%;
+    margin: auto;
+    
+    font-size: 25px;
+    
+    color: rgb(52, 184, 125);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#personallife2 h1{
+    font-size: 40px;
+    text-align: center;
+   
+    color: rgb(52, 184, 125);
+    background-color: white;
+    margin-top: 5%;
+
+}
+
+#personallife2 img {
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 0%;
+    align-items: center;
+}
+
+
+#personallife3{
+    background-color: rgb(52, 184, 125);
+
+}
+
+#personallife3 p {
+    width: 75%;
+    margin: auto;
+    
+    font-size: 25px;
+    
+    color: white;
+    background-color:rgb(52, 184, 125) ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+}
+
+#personallife3 h1{
+    font-size: 40px;
+    text-align: center;
+   
+    color: white;
+    padding-top: 5%;
+    
+
+
+}
+
+#personallife3 img {
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 0%;
+}
+footer{
+    margin: 1%;
+    font-size: 15px;
+    text-align: center;
+}
+footer a{
+
+margin: 0 7%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: solid;
+    color: rgb(21, 148, 21);
+}

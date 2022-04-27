@@ -1,0 +1,69 @@
+body {
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    margin: 0;
+   
+}
+
+.page {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    padding: 2% 0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+
+
+}
+
+nav a {
+    margin: 0 7%;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    text-decoration: solid;
+    color: rgb(23, 56, 23);
+}
+
+nav, #home {
+    color: white;
+    background-color: rgb(52, 184, 125)
+}
+
+#home img {
+    width: 100%;
+}
+
+#home p {
+    width: 75%;
+    margin: auto;
+    padding: 5% 0;
+    font-size: 25px;
+    
+    font-weight: 100;
+}
+
+
+
+footer{
+    margin: 1%;
+    font-size: 15px;
+    text-align: center;
+}
+footer a{
+
+margin: 0 7%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: solid;
+    color: rgb(21, 148, 21);
+}
